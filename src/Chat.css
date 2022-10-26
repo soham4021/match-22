@@ -1,0 +1,30 @@
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  height: 60px;
+  border-bottom: 1px solid #d8d5d5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.chat__details {
+  flex: 1;
+}
+
+.chat__details > p {
+  color: gray;
+}
+/* 3:00:15 --> That paragraph has to be a direct child of .chat__details or this above code will not work */
+
+.chat__image {
+  margin-right: 20px;
+}
+
+.chat__timestamp {
+  color: lightgray;
+}
